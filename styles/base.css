@@ -1,0 +1,15 @@
+@tailwind base;
+
+@layer base {
+  [data-nextjs-scroll-focus-boundary] {
+    display: contents;
+  }
+
+  #root {
+    @apply min-h-screen bg-default-800 text-white;
+  }
+
+  #main {
+    @apply grid grid-cols-12 py-12 px-16;
+  }
+}
