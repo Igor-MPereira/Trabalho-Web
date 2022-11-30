@@ -1,0 +1,13 @@
+{
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"trailingComma": "none",
+	"printWidth": 90,
+	"htmlWhitespaceSensitivity": "strict",
+	"embeddedLanguageFormatting": "auto",
+	"jsxSingleQuote": true,
+	"singleAttributePerLine": true,
+	"arrowParens": "avoid",
+	"quoteProps": "consistent",
+	"singleQuote": true,
+	"semi": true
+}
