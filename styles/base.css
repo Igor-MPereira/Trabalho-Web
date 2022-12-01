@@ -6,7 +6,7 @@
   }
 
   #root {
-    @apply min-h-screen bg-default-800 text-white;
+    @apply min-h-screen bg-default-900 text-white;
   }
 
   #main {

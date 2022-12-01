@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@headlessui/react", "virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:1.7.4"],\
+            ["@heroicons/react", "virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:2.0.13"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -117,6 +118,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",\
             "@types/react",\
             "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:2.0.13", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-2.0.13-35b19f9179-f03c393a12.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:2.0.13"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:2.0.13", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-90e396ea13/0/cache/@heroicons-react-npm-2.0.13-35b19f9179-f03c393a12.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:2.0.13"],\
+            ["@types/react", "npm:18.0.25"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
             "react"\
           ],\
           "linkType": "HARD"\
@@ -4185,6 +4208,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["trabalho-web", "workspace:."],\
             ["@headlessui/react", "virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:1.7.4"],\
+            ["@heroicons/react", "virtual:4c8f40e8b40903066ce9a049460e3ab53a4f8c716d39fa3feb5b843f2a60d14eecb9aaf2e2a7eccb9321aae3ccbd65d8e06cd561f174ecfa9b8dc7fbba852ad1#npm:2.0.13"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\

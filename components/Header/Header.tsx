@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className='sticky top-0 left-0 flex justify-between bg-default-900 px-20 py-4 shadow-xl'>
+    <header className='sticky top-0 left-0 flex justify-between bg-default-800 px-20 py-4 shadow-xl'>
       <h1 className='text-3xl'>
         <NavLink href='/'>Site Portfólio</NavLink>
       </h1>
