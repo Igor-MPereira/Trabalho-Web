@@ -7,7 +7,7 @@ export default function RootTemplate({ children }: LayoutProps) {
     <FadeOnLoad>
       <Aside />
 
-      <article className='col-span-8 px-12'>{children}</article>
+      {children}
     </FadeOnLoad>
   );
 }
